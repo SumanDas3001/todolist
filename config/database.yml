@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: todolist_production
-  username: todolist
-  password: <%= ENV['TODOLIST_DATABASE_PASSWORD'] %>
+  username: suman
+  password: nopassword

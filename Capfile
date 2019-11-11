@@ -39,4 +39,4 @@ require "capistrano/passenger"
 Dir.glob("lib/capistrano/tasks/*.rake").each { |r| import r }
 
 set :rvm_type, :user
-set :rvm_ruby_version, '2.6.5'
+set :rvm_ruby_version, '2.5.1'
