@@ -1,5 +1,5 @@
 # Change these
-server '142.93.223.50', port: 3000, roles: [:web, :app, :db], primary: true
+server '142.93.223.50', user: 'suman', roles: [:web, :app, :db], primary: true
 
 set :repo_url,        'gitgithub.com/SumanDas3001/todolist.git'
 set :application,     'todolist'
