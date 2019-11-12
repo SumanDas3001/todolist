@@ -1,7 +1,7 @@
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.11.2"
 
-set :application, "myapp"
+set :application, "todolist"
 set :repo_url, "https://github.com/SumanDas3001/todolist.git"
 
 # Default branch is :master
