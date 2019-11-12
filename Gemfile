@@ -62,5 +62,5 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'capistrano', '~> 3.11', '>= 3.11.2'
 gem 'capistrano-rails', '~> 1.4'
-gem 'capistrano-passenger', '~> 0.2.0'
+gem 'capistrano3-puma',  require: false
 gem 'capistrano-rvm', '~> 0.1.2'
