@@ -1,7 +1,7 @@
 # Change these
 server '142.93.223.50', user: 'suman', roles: [:web, :app, :db], primary: true
 
-set :repo_url,        'gitgithub.com/SumanDas3001/todolist.git'
+set :repo_url,        'github.com/SumanDas3001/todolist.git'
 set :application,     'todolist'
 set :user,            'suman'
 set :puma_threads,    [4, 16]
