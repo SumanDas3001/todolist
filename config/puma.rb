@@ -39,7 +39,9 @@ workers 2
 # Min and Max threads per worker
 threads 1, 6
 
-app_dir = '/home/suman/todolist/current'
+# app_dir = '/home/suman/todolist/current'
+app_dir = File.expand_path('/home/suman/todolist/current', __FILE__)
+
 shared_dir = "/home/suman/todolist/shared"
 
 # Default to production
